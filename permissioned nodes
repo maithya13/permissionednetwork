@@ -1,0 +1,27 @@
+{
+  "genesis": {
+    "runtime": {
+      "palletSession": {
+        "keys": [
+          [
+            "5F3sa2TJAWMqDhXG6jhV4N8ko9xZLqQJbPwhczAaqUGn6iS5", // Validator 1's stash account
+            "5F3sa2TJAWMqDhXG6jhV4N8ko9xZLqQJbPwhczAaqUGn6iS5", // Validator 1's controller account
+            {
+              "grandpa": "5F3sa2TJAWMqDhXG6jhV4N8ko9xZLqQJbPwhczAaqUGn6iS5", // Validator 1's Grandpa key
+              "babe": "5F3sa2TJAWMqDhXG6jhV4N8ko9xZLqQJbPwhczAaqUGn6iS5", // Validator 1's Babe key
+              "im_online": "5F3sa2TJAWMqDhXG6jhV4N8ko9xZLqQJbPwhczAaqUGn6iS5", // Validator 1's ImOnline key
+              "authority_discovery": "5F3sa2TJAWMqDhXG6jhV4N8ko9xZLqQJbPwhczAaqUGn6iS5" // Validator 1's AuthorityDiscovery key
+            }
+          ],
+          // Add more validators here
+        ]
+      },
+      "palletBalances": {
+        "balances": [
+          ["5F3sa2TJAWMqDhXG6jhV4N8ko9xZLqQJbPwhczAaqUGn6iS5", 1000000000000000],
+          // Add more accounts and balances here
+        ]
+      }
+    }
+  }
+}
